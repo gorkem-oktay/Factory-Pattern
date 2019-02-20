@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		7E8E6A05221D7CA0001EAC35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E6A04221D7CA0001EAC35 /* main.cpp */; };
+		7E8E6A12221D7DA8001EAC35 /* IPotion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E6A10221D7DA8001EAC35 /* IPotion.cpp */; };
+		7E8E6A15221D812B001EAC35 /* IngredientDecorator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E6A13221D812B001EAC35 /* IngredientDecorator.cpp */; };
+		7E8E6A18221D8242001EAC35 /* HealthPotion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E6A16221D8242001EAC35 /* HealthPotion.cpp */; };
+		7E8E6A1B221D835C001EAC35 /* ManaPotion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E6A19221D835C001EAC35 /* ManaPotion.cpp */; };
+		7E8E6A1E221D83AE001EAC35 /* Vial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E6A1C221D83AE001EAC35 /* Vial.cpp */; };
+		7E8E6A21221D848D001EAC35 /* BlueHerb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E6A1F221D848D001EAC35 /* BlueHerb.cpp */; };
+		7E8E6A24221D8506001EAC35 /* GreenHerb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E6A22221D8506001EAC35 /* GreenHerb.cpp */; };
+		7E8E6A27221D8565001EAC35 /* Water.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E6A25221D8565001EAC35 /* Water.cpp */; };
+		7E8E6A2C221D89B6001EAC35 /* IObservable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E6A2A221D89B6001EAC35 /* IObservable.cpp */; };
+		7E8E6A2F221D9B78001EAC35 /* Health.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E6A2D221D9B78001EAC35 /* Health.cpp */; };
+		7E8E6A32221DA078001EAC35 /* HealthBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E6A30221DA078001EAC35 /* HealthBar.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +36,30 @@
 /* Begin PBXFileReference section */
 		7E8E6A01221D7CA0001EAC35 /* FactoryPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FactoryPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E8E6A04221D7CA0001EAC35 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7E8E6A10221D7DA8001EAC35 /* IPotion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IPotion.cpp; sourceTree = "<group>"; };
+		7E8E6A11221D7DA8001EAC35 /* IPotion.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IPotion.hpp; sourceTree = "<group>"; };
+		7E8E6A13221D812B001EAC35 /* IngredientDecorator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IngredientDecorator.cpp; sourceTree = "<group>"; };
+		7E8E6A14221D812B001EAC35 /* IngredientDecorator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IngredientDecorator.hpp; sourceTree = "<group>"; };
+		7E8E6A16221D8242001EAC35 /* HealthPotion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HealthPotion.cpp; sourceTree = "<group>"; };
+		7E8E6A17221D8242001EAC35 /* HealthPotion.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HealthPotion.hpp; sourceTree = "<group>"; };
+		7E8E6A19221D835C001EAC35 /* ManaPotion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ManaPotion.cpp; sourceTree = "<group>"; };
+		7E8E6A1A221D835C001EAC35 /* ManaPotion.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ManaPotion.hpp; sourceTree = "<group>"; };
+		7E8E6A1C221D83AE001EAC35 /* Vial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vial.cpp; sourceTree = "<group>"; };
+		7E8E6A1D221D83AE001EAC35 /* Vial.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vial.hpp; sourceTree = "<group>"; };
+		7E8E6A1F221D848D001EAC35 /* BlueHerb.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BlueHerb.cpp; sourceTree = "<group>"; };
+		7E8E6A20221D848D001EAC35 /* BlueHerb.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BlueHerb.hpp; sourceTree = "<group>"; };
+		7E8E6A22221D8506001EAC35 /* GreenHerb.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GreenHerb.cpp; sourceTree = "<group>"; };
+		7E8E6A23221D8506001EAC35 /* GreenHerb.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GreenHerb.hpp; sourceTree = "<group>"; };
+		7E8E6A25221D8565001EAC35 /* Water.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Water.cpp; sourceTree = "<group>"; };
+		7E8E6A26221D8565001EAC35 /* Water.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Water.hpp; sourceTree = "<group>"; };
+		7E8E6A28221D8628001EAC35 /* Headers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Headers.hpp; sourceTree = "<group>"; };
+		7E8E6A29221D88EB001EAC35 /* IObserver.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IObserver.hpp; sourceTree = "<group>"; };
+		7E8E6A2A221D89B6001EAC35 /* IObservable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IObservable.cpp; sourceTree = "<group>"; };
+		7E8E6A2B221D89B6001EAC35 /* IObservable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IObservable.hpp; sourceTree = "<group>"; };
+		7E8E6A2D221D9B78001EAC35 /* Health.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Health.cpp; sourceTree = "<group>"; };
+		7E8E6A2E221D9B78001EAC35 /* Health.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Health.hpp; sourceTree = "<group>"; };
+		7E8E6A30221DA078001EAC35 /* HealthBar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HealthBar.cpp; sourceTree = "<group>"; };
+		7E8E6A31221DA078001EAC35 /* HealthBar.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HealthBar.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +93,72 @@
 			isa = PBXGroup;
 			children = (
 				7E8E6A04221D7CA0001EAC35 /* main.cpp */,
+				7E8E6A0D221D7D6E001EAC35 /* Alchemy */,
+				7E8E6A0B221D7D58001EAC35 /* Characters */,
+				7E8E6A0E221D7D74001EAC35 /* Observables */,
+				7E8E6A0F221D7D7B001EAC35 /* Observers */,
+				7E8E6A0C221D7D5F001EAC35 /* Weapons */,
 			);
 			path = FactoryPattern;
+			sourceTree = "<group>";
+		};
+		7E8E6A0B221D7D58001EAC35 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		7E8E6A0C221D7D5F001EAC35 /* Weapons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Weapons;
+			sourceTree = "<group>";
+		};
+		7E8E6A0D221D7D6E001EAC35 /* Alchemy */ = {
+			isa = PBXGroup;
+			children = (
+				7E8E6A28221D8628001EAC35 /* Headers.hpp */,
+				7E8E6A1F221D848D001EAC35 /* BlueHerb.cpp */,
+				7E8E6A20221D848D001EAC35 /* BlueHerb.hpp */,
+				7E8E6A22221D8506001EAC35 /* GreenHerb.cpp */,
+				7E8E6A23221D8506001EAC35 /* GreenHerb.hpp */,
+				7E8E6A16221D8242001EAC35 /* HealthPotion.cpp */,
+				7E8E6A17221D8242001EAC35 /* HealthPotion.hpp */,
+				7E8E6A13221D812B001EAC35 /* IngredientDecorator.cpp */,
+				7E8E6A14221D812B001EAC35 /* IngredientDecorator.hpp */,
+				7E8E6A10221D7DA8001EAC35 /* IPotion.cpp */,
+				7E8E6A11221D7DA8001EAC35 /* IPotion.hpp */,
+				7E8E6A19221D835C001EAC35 /* ManaPotion.cpp */,
+				7E8E6A1A221D835C001EAC35 /* ManaPotion.hpp */,
+				7E8E6A1C221D83AE001EAC35 /* Vial.cpp */,
+				7E8E6A1D221D83AE001EAC35 /* Vial.hpp */,
+				7E8E6A25221D8565001EAC35 /* Water.cpp */,
+				7E8E6A26221D8565001EAC35 /* Water.hpp */,
+			);
+			path = Alchemy;
+			sourceTree = "<group>";
+		};
+		7E8E6A0E221D7D74001EAC35 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				7E8E6A2A221D89B6001EAC35 /* IObservable.cpp */,
+				7E8E6A2B221D89B6001EAC35 /* IObservable.hpp */,
+				7E8E6A2D221D9B78001EAC35 /* Health.cpp */,
+				7E8E6A2E221D9B78001EAC35 /* Health.hpp */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		7E8E6A0F221D7D7B001EAC35 /* Observers */ = {
+			isa = PBXGroup;
+			children = (
+				7E8E6A29221D88EB001EAC35 /* IObserver.hpp */,
+				7E8E6A30221DA078001EAC35 /* HealthBar.cpp */,
+				7E8E6A31221DA078001EAC35 /* HealthBar.hpp */,
+			);
+			path = Observers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +217,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E8E6A27221D8565001EAC35 /* Water.cpp in Sources */,
+				7E8E6A32221DA078001EAC35 /* HealthBar.cpp in Sources */,
+				7E8E6A24221D8506001EAC35 /* GreenHerb.cpp in Sources */,
+				7E8E6A1B221D835C001EAC35 /* ManaPotion.cpp in Sources */,
+				7E8E6A18221D8242001EAC35 /* HealthPotion.cpp in Sources */,
+				7E8E6A15221D812B001EAC35 /* IngredientDecorator.cpp in Sources */,
+				7E8E6A1E221D83AE001EAC35 /* Vial.cpp in Sources */,
+				7E8E6A2C221D89B6001EAC35 /* IObservable.cpp in Sources */,
+				7E8E6A12221D7DA8001EAC35 /* IPotion.cpp in Sources */,
 				7E8E6A05221D7CA0001EAC35 /* main.cpp in Sources */,
+				7E8E6A21221D848D001EAC35 /* BlueHerb.cpp in Sources */,
+				7E8E6A2F221D9B78001EAC35 /* Health.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
