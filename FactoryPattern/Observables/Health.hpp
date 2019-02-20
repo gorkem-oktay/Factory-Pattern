@@ -11,7 +11,7 @@
 
 #include "IObservable.hpp"
 
-class Health : public IObservable {
+class Health : IObservable {
   
 public:
     Health(int value);

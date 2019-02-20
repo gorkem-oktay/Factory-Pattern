@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30BBF6DA221DC292001E97A7 /* ICharacters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6D8221DC292001E97A7 /* ICharacters.cpp */; };
+		30BBF6E0221DC2BC001E97A7 /* IWeapon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6DE221DC2BC001E97A7 /* IWeapon.cpp */; };
+		30BBF6E3221DC2C4001E97A7 /* IArmor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6E1221DC2C4001E97A7 /* IArmor.cpp */; };
+		30BBF6E6221DC2D6001E97A7 /* IEquipment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6E4221DC2D6001E97A7 /* IEquipment.cpp */; };
+		30BBF6ED221DDB04001E97A7 /* Sword.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6EB221DDB04001E97A7 /* Sword.cpp */; };
+		30BBF6F0221DDDC7001E97A7 /* SwordBehaviour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6EE221DDDC7001E97A7 /* SwordBehaviour.cpp */; };
+		30BBF6F3221DDEF8001E97A7 /* DaggerBehaviour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6F1221DDEF8001E97A7 /* DaggerBehaviour.cpp */; };
+		30BBF6F6221DDF5C001E97A7 /* ClubBehaviour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6F4221DDF5C001E97A7 /* ClubBehaviour.cpp */; };
+		30BBF6F9221DECBA001E97A7 /* Dagger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6F7221DECBA001E97A7 /* Dagger.cpp */; };
+		30BBF6FC221DED12001E97A7 /* Club.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6FA221DED12001E97A7 /* Club.cpp */; };
+		30BBF6FF221DEDA2001E97A7 /* Helmet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6FD221DEDA2001E97A7 /* Helmet.cpp */; };
+		30BBF702221DEDB5001E97A7 /* Cuirass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF700221DEDB5001E97A7 /* Cuirass.cpp */; };
+		30BBF705221DEDCC001E97A7 /* Pauldron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF703221DEDCC001E97A7 /* Pauldron.cpp */; };
+		30BBF708221DEDD8001E97A7 /* Gauntlet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF706221DEDD8001E97A7 /* Gauntlet.cpp */; };
+		30BBF70B221DEDE6001E97A7 /* Greave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF709221DEDE6001E97A7 /* Greave.cpp */; };
 		7E8E6A05221D7CA0001EAC35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E6A04221D7CA0001EAC35 /* main.cpp */; };
 		7E8E6A12221D7DA8001EAC35 /* IPotion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E6A10221D7DA8001EAC35 /* IPotion.cpp */; };
 		7E8E6A15221D812B001EAC35 /* IngredientDecorator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E6A13221D812B001EAC35 /* IngredientDecorator.cpp */; };
@@ -34,6 +49,37 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		30BBF6D8221DC292001E97A7 /* ICharacters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ICharacters.cpp; sourceTree = "<group>"; };
+		30BBF6D9221DC292001E97A7 /* ICharacters.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ICharacters.hpp; sourceTree = "<group>"; };
+		30BBF6DE221DC2BC001E97A7 /* IWeapon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IWeapon.cpp; sourceTree = "<group>"; };
+		30BBF6DF221DC2BC001E97A7 /* IWeapon.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IWeapon.hpp; sourceTree = "<group>"; };
+		30BBF6E1221DC2C4001E97A7 /* IArmor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IArmor.cpp; sourceTree = "<group>"; };
+		30BBF6E2221DC2C4001E97A7 /* IArmor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IArmor.hpp; sourceTree = "<group>"; };
+		30BBF6E4221DC2D6001E97A7 /* IEquipment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IEquipment.cpp; sourceTree = "<group>"; };
+		30BBF6E5221DC2D6001E97A7 /* IEquipment.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IEquipment.hpp; sourceTree = "<group>"; };
+		30BBF6E9221DD9D4001E97A7 /* IWeaponBehaviour.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IWeaponBehaviour.hpp; sourceTree = "<group>"; };
+		30BBF6EB221DDB04001E97A7 /* Sword.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sword.cpp; sourceTree = "<group>"; };
+		30BBF6EC221DDB04001E97A7 /* Sword.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sword.hpp; sourceTree = "<group>"; };
+		30BBF6EE221DDDC7001E97A7 /* SwordBehaviour.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SwordBehaviour.cpp; sourceTree = "<group>"; };
+		30BBF6EF221DDDC7001E97A7 /* SwordBehaviour.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SwordBehaviour.hpp; sourceTree = "<group>"; };
+		30BBF6F1221DDEF8001E97A7 /* DaggerBehaviour.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DaggerBehaviour.cpp; sourceTree = "<group>"; };
+		30BBF6F2221DDEF8001E97A7 /* DaggerBehaviour.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DaggerBehaviour.hpp; sourceTree = "<group>"; };
+		30BBF6F4221DDF5C001E97A7 /* ClubBehaviour.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClubBehaviour.cpp; sourceTree = "<group>"; };
+		30BBF6F5221DDF5C001E97A7 /* ClubBehaviour.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ClubBehaviour.hpp; sourceTree = "<group>"; };
+		30BBF6F7221DECBA001E97A7 /* Dagger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dagger.cpp; sourceTree = "<group>"; };
+		30BBF6F8221DECBA001E97A7 /* Dagger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Dagger.hpp; sourceTree = "<group>"; };
+		30BBF6FA221DED12001E97A7 /* Club.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Club.cpp; sourceTree = "<group>"; };
+		30BBF6FB221DED12001E97A7 /* Club.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Club.hpp; sourceTree = "<group>"; };
+		30BBF6FD221DEDA2001E97A7 /* Helmet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Helmet.cpp; sourceTree = "<group>"; };
+		30BBF6FE221DEDA2001E97A7 /* Helmet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Helmet.hpp; sourceTree = "<group>"; };
+		30BBF700221DEDB5001E97A7 /* Cuirass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cuirass.cpp; sourceTree = "<group>"; };
+		30BBF701221DEDB5001E97A7 /* Cuirass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cuirass.hpp; sourceTree = "<group>"; };
+		30BBF703221DEDCC001E97A7 /* Pauldron.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pauldron.cpp; sourceTree = "<group>"; };
+		30BBF704221DEDCC001E97A7 /* Pauldron.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Pauldron.hpp; sourceTree = "<group>"; };
+		30BBF706221DEDD8001E97A7 /* Gauntlet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Gauntlet.cpp; sourceTree = "<group>"; };
+		30BBF707221DEDD8001E97A7 /* Gauntlet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Gauntlet.hpp; sourceTree = "<group>"; };
+		30BBF709221DEDE6001E97A7 /* Greave.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Greave.cpp; sourceTree = "<group>"; };
+		30BBF70A221DEDE6001E97A7 /* Greave.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Greave.hpp; sourceTree = "<group>"; };
 		7E8E6A01221D7CA0001EAC35 /* FactoryPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FactoryPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E8E6A04221D7CA0001EAC35 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7E8E6A10221D7DA8001EAC35 /* IPotion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IPotion.cpp; sourceTree = "<group>"; };
@@ -73,6 +119,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30BBF6D4221DC277001E97A7 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				30BBF6D8221DC292001E97A7 /* ICharacters.cpp */,
+				30BBF6D9221DC292001E97A7 /* ICharacters.hpp */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		30BBF6DB221DC29F001E97A7 /* Equipments */ = {
+			isa = PBXGroup;
+			children = (
+				30BBF6E7221DD9C4001E97A7 /* WeaponBehaviours */,
+				30BBF6DD221DC2AD001E97A7 /* Armors */,
+				30BBF6DC221DC2A6001E97A7 /* Weapons */,
+				30BBF6E4221DC2D6001E97A7 /* IEquipment.cpp */,
+				30BBF6E5221DC2D6001E97A7 /* IEquipment.hpp */,
+			);
+			path = Equipments;
+			sourceTree = "<group>";
+		};
+		30BBF6DC221DC2A6001E97A7 /* Weapons */ = {
+			isa = PBXGroup;
+			children = (
+				30BBF6DE221DC2BC001E97A7 /* IWeapon.cpp */,
+				30BBF6DF221DC2BC001E97A7 /* IWeapon.hpp */,
+				30BBF6EB221DDB04001E97A7 /* Sword.cpp */,
+				30BBF6EC221DDB04001E97A7 /* Sword.hpp */,
+				30BBF6F7221DECBA001E97A7 /* Dagger.cpp */,
+				30BBF6F8221DECBA001E97A7 /* Dagger.hpp */,
+				30BBF6FA221DED12001E97A7 /* Club.cpp */,
+				30BBF6FB221DED12001E97A7 /* Club.hpp */,
+			);
+			path = Weapons;
+			sourceTree = "<group>";
+		};
+		30BBF6DD221DC2AD001E97A7 /* Armors */ = {
+			isa = PBXGroup;
+			children = (
+				30BBF6E1221DC2C4001E97A7 /* IArmor.cpp */,
+				30BBF6E2221DC2C4001E97A7 /* IArmor.hpp */,
+				30BBF6FD221DEDA2001E97A7 /* Helmet.cpp */,
+				30BBF6FE221DEDA2001E97A7 /* Helmet.hpp */,
+				30BBF700221DEDB5001E97A7 /* Cuirass.cpp */,
+				30BBF701221DEDB5001E97A7 /* Cuirass.hpp */,
+				30BBF703221DEDCC001E97A7 /* Pauldron.cpp */,
+				30BBF704221DEDCC001E97A7 /* Pauldron.hpp */,
+				30BBF706221DEDD8001E97A7 /* Gauntlet.cpp */,
+				30BBF707221DEDD8001E97A7 /* Gauntlet.hpp */,
+				30BBF709221DEDE6001E97A7 /* Greave.cpp */,
+				30BBF70A221DEDE6001E97A7 /* Greave.hpp */,
+			);
+			path = Armors;
+			sourceTree = "<group>";
+		};
+		30BBF6E7221DD9C4001E97A7 /* WeaponBehaviours */ = {
+			isa = PBXGroup;
+			children = (
+				30BBF6E9221DD9D4001E97A7 /* IWeaponBehaviour.hpp */,
+				30BBF6EE221DDDC7001E97A7 /* SwordBehaviour.cpp */,
+				30BBF6EF221DDDC7001E97A7 /* SwordBehaviour.hpp */,
+				30BBF6F1221DDEF8001E97A7 /* DaggerBehaviour.cpp */,
+				30BBF6F2221DDEF8001E97A7 /* DaggerBehaviour.hpp */,
+				30BBF6F4221DDF5C001E97A7 /* ClubBehaviour.cpp */,
+				30BBF6F5221DDF5C001E97A7 /* ClubBehaviour.hpp */,
+			);
+			path = WeaponBehaviours;
+			sourceTree = "<group>";
+		};
 		7E8E69F8221D7CA0001EAC35 = {
 			isa = PBXGroup;
 			children = (
@@ -92,28 +207,14 @@
 		7E8E6A03221D7CA0001EAC35 /* FactoryPattern */ = {
 			isa = PBXGroup;
 			children = (
+				30BBF6DB221DC29F001E97A7 /* Equipments */,
+				30BBF6D4221DC277001E97A7 /* Characters */,
 				7E8E6A04221D7CA0001EAC35 /* main.cpp */,
 				7E8E6A0D221D7D6E001EAC35 /* Alchemy */,
-				7E8E6A0B221D7D58001EAC35 /* Characters */,
 				7E8E6A0E221D7D74001EAC35 /* Observables */,
 				7E8E6A0F221D7D7B001EAC35 /* Observers */,
-				7E8E6A0C221D7D5F001EAC35 /* Weapons */,
 			);
 			path = FactoryPattern;
-			sourceTree = "<group>";
-		};
-		7E8E6A0B221D7D58001EAC35 /* Characters */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Characters;
-			sourceTree = "<group>";
-		};
-		7E8E6A0C221D7D5F001EAC35 /* Weapons */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Weapons;
 			sourceTree = "<group>";
 		};
 		7E8E6A0D221D7D6E001EAC35 /* Alchemy */ = {
@@ -217,18 +318,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30BBF6E6221DC2D6001E97A7 /* IEquipment.cpp in Sources */,
 				7E8E6A27221D8565001EAC35 /* Water.cpp in Sources */,
 				7E8E6A32221DA078001EAC35 /* HealthBar.cpp in Sources */,
 				7E8E6A24221D8506001EAC35 /* GreenHerb.cpp in Sources */,
 				7E8E6A1B221D835C001EAC35 /* ManaPotion.cpp in Sources */,
+				30BBF6F6221DDF5C001E97A7 /* ClubBehaviour.cpp in Sources */,
+				30BBF6FF221DEDA2001E97A7 /* Helmet.cpp in Sources */,
 				7E8E6A18221D8242001EAC35 /* HealthPotion.cpp in Sources */,
 				7E8E6A15221D812B001EAC35 /* IngredientDecorator.cpp in Sources */,
+				30BBF6F9221DECBA001E97A7 /* Dagger.cpp in Sources */,
 				7E8E6A1E221D83AE001EAC35 /* Vial.cpp in Sources */,
 				7E8E6A2C221D89B6001EAC35 /* IObservable.cpp in Sources */,
 				7E8E6A12221D7DA8001EAC35 /* IPotion.cpp in Sources */,
+				30BBF6E0221DC2BC001E97A7 /* IWeapon.cpp in Sources */,
+				30BBF70B221DEDE6001E97A7 /* Greave.cpp in Sources */,
+				30BBF702221DEDB5001E97A7 /* Cuirass.cpp in Sources */,
+				30BBF6FC221DED12001E97A7 /* Club.cpp in Sources */,
+				30BBF6DA221DC292001E97A7 /* ICharacters.cpp in Sources */,
+				30BBF708221DEDD8001E97A7 /* Gauntlet.cpp in Sources */,
+				30BBF6F3221DDEF8001E97A7 /* DaggerBehaviour.cpp in Sources */,
 				7E8E6A05221D7CA0001EAC35 /* main.cpp in Sources */,
+				30BBF6F0221DDDC7001E97A7 /* SwordBehaviour.cpp in Sources */,
+				30BBF705221DEDCC001E97A7 /* Pauldron.cpp in Sources */,
 				7E8E6A21221D848D001EAC35 /* BlueHerb.cpp in Sources */,
 				7E8E6A2F221D9B78001EAC35 /* Health.cpp in Sources */,
+				30BBF6ED221DDB04001E97A7 /* Sword.cpp in Sources */,
+				30BBF6E3221DC2C4001E97A7 /* IArmor.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

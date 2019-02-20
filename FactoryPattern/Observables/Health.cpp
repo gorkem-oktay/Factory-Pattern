@@ -12,6 +12,10 @@ Health::Health(int value){
     this->value = value;
 }
 
+int Health::getValue(){
+    return value;
+}
+
 void Health::decrease(int value){
     this->value -= value;
     notifyAll((void*)value);

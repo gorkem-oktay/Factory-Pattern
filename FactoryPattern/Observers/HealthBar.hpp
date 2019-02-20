@@ -14,7 +14,7 @@
 
 using namespace std;
 
-class HealthBar : public IObserver {
+class HealthBar : IObserver {
 
 public:
     HealthBar(string name);
