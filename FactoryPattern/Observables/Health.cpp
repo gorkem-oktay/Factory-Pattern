@@ -8,7 +8,15 @@
 
 #include "Health.hpp"
 
+Health::Health(){
+    this->value = 0;
+}
+
 Health::Health(int value){
+    this->value = value;
+}
+
+void Health::setValue(int value){
     this->value = value;
 }
 

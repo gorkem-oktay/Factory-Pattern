@@ -7,3 +7,9 @@
 //
 
 #include "Greave.hpp"
+
+Greave::Greave(){
+    setName("Greave");
+    setSlot(FOOT);
+    setProtection(1);
+}

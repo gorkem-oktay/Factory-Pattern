@@ -8,12 +8,12 @@
 
 #include "IEquipment.hpp"
 
-void IEquipment::setType(string type){
-    this->type = type;
+void IEquipment::setName(string name){
+    this->name = name;
 }
 
-string IEquipment::getType(){
-    return type;
+string IEquipment::getName(){
+    return name;
 }
 
 void IEquipment::setSlot(EquipmentSlot slot){

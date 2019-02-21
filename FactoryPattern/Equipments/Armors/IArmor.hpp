@@ -9,7 +9,9 @@
 #ifndef IArmor_hpp
 #define IArmor_hpp
 
-class IArmor {
+#include "../IEquipment.hpp"
+
+class IArmor : public IEquipment {
     
 public:
     void setProtection(int value);

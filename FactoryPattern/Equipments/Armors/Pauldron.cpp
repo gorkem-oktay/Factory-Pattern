@@ -7,3 +7,9 @@
 //
 
 #include "Pauldron.hpp"
+
+Pauldron::Pauldron(){
+    setName("Pauldron");
+    setSlot(LEGS);
+    setProtection(1);
+}

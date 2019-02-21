@@ -9,6 +9,12 @@
 #ifndef Greave_hpp
 #define Greave_hpp
 
-#include <stdio.h>
+#include "IArmor.hpp"
+
+class Greave : public IArmor {
+    
+public:
+    Greave();
+};
 
 #endif /* Greave_hpp */

@@ -11,11 +11,13 @@
 
 #include "IObservable.hpp"
 
-class Health : IObservable {
+class Health : public IObservable {
   
 public:
+    Health();
     Health(int value);
     
+    void setValue(int value);
     int getValue();
     
     void decrease(int value);

@@ -10,7 +10,7 @@
 #include "../WeaponBehaviours/SwordBehaviour.hpp"
 
 Sword::Sword(){
-    setType("Sword");
+    setName("Sword");
     setDamage(10);
     setBehaviour(new SwordBehaviour());
     setSlot(EquipmentSlot::RIGHT_HAND);

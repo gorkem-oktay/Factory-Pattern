@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30BBF6DA221DC292001E97A7 /* ICharacters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6D8221DC292001E97A7 /* ICharacters.cpp */; };
 		30BBF6E0221DC2BC001E97A7 /* IWeapon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6DE221DC2BC001E97A7 /* IWeapon.cpp */; };
 		30BBF6E3221DC2C4001E97A7 /* IArmor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6E1221DC2C4001E97A7 /* IArmor.cpp */; };
 		30BBF6E6221DC2D6001E97A7 /* IEquipment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6E4221DC2D6001E97A7 /* IEquipment.cpp */; };
@@ -34,6 +33,13 @@
 		7E8E6A2C221D89B6001EAC35 /* IObservable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E6A2A221D89B6001EAC35 /* IObservable.cpp */; };
 		7E8E6A2F221D9B78001EAC35 /* Health.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E6A2D221D9B78001EAC35 /* Health.cpp */; };
 		7E8E6A32221DA078001EAC35 /* HealthBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E6A30221DA078001EAC35 /* HealthBar.cpp */; };
+		7EA5D41B221EBA6C00A73BE5 /* WeaponFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EA5D419221EBA6C00A73BE5 /* WeaponFactory.cpp */; };
+		7EA5D41E221EBB6A00A73BE5 /* ArmorFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EA5D41C221EBB6A00A73BE5 /* ArmorFactory.cpp */; };
+		7EA5D420221EBEF400A73BE5 /* IEquipmentFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EA5D41F221EBEF400A73BE5 /* IEquipmentFactory.cpp */; };
+		7EA5D423221EC12C00A73BE5 /* ICharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EA5D421221EC12C00A73BE5 /* ICharacter.cpp */; };
+		7EA5D426221ECF9800A73BE5 /* Knight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EA5D424221ECF9800A73BE5 /* Knight.cpp */; };
+		7EA5D429221ED34900A73BE5 /* Goblin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EA5D427221ED34900A73BE5 /* Goblin.cpp */; };
+		7EA5D42C221ED39800A73BE5 /* Troll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EA5D42A221ED39800A73BE5 /* Troll.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,8 +55,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		30BBF6D8221DC292001E97A7 /* ICharacters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ICharacters.cpp; sourceTree = "<group>"; };
-		30BBF6D9221DC292001E97A7 /* ICharacters.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ICharacters.hpp; sourceTree = "<group>"; };
 		30BBF6DE221DC2BC001E97A7 /* IWeapon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IWeapon.cpp; sourceTree = "<group>"; };
 		30BBF6DF221DC2BC001E97A7 /* IWeapon.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IWeapon.hpp; sourceTree = "<group>"; };
 		30BBF6E1221DC2C4001E97A7 /* IArmor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IArmor.cpp; sourceTree = "<group>"; };
@@ -106,6 +110,21 @@
 		7E8E6A2E221D9B78001EAC35 /* Health.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Health.hpp; sourceTree = "<group>"; };
 		7E8E6A30221DA078001EAC35 /* HealthBar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HealthBar.cpp; sourceTree = "<group>"; };
 		7E8E6A31221DA078001EAC35 /* HealthBar.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HealthBar.hpp; sourceTree = "<group>"; };
+		7EA5D417221EBA0600A73BE5 /* IEquipmentFactory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IEquipmentFactory.hpp; sourceTree = "<group>"; };
+		7EA5D419221EBA6C00A73BE5 /* WeaponFactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WeaponFactory.cpp; sourceTree = "<group>"; };
+		7EA5D41A221EBA6C00A73BE5 /* WeaponFactory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WeaponFactory.hpp; sourceTree = "<group>"; };
+		7EA5D41C221EBB6A00A73BE5 /* ArmorFactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArmorFactory.cpp; sourceTree = "<group>"; };
+		7EA5D41D221EBB6A00A73BE5 /* ArmorFactory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArmorFactory.hpp; sourceTree = "<group>"; };
+		7EA5D41F221EBEF400A73BE5 /* IEquipmentFactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IEquipmentFactory.cpp; sourceTree = "<group>"; };
+		7EA5D421221EC12C00A73BE5 /* ICharacter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ICharacter.cpp; sourceTree = "<group>"; };
+		7EA5D422221EC12C00A73BE5 /* ICharacter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ICharacter.hpp; sourceTree = "<group>"; };
+		7EA5D424221ECF9800A73BE5 /* Knight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Knight.cpp; sourceTree = "<group>"; };
+		7EA5D425221ECF9800A73BE5 /* Knight.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Knight.hpp; sourceTree = "<group>"; };
+		7EA5D427221ED34900A73BE5 /* Goblin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Goblin.cpp; sourceTree = "<group>"; };
+		7EA5D428221ED34900A73BE5 /* Goblin.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Goblin.hpp; sourceTree = "<group>"; };
+		7EA5D42A221ED39800A73BE5 /* Troll.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Troll.cpp; sourceTree = "<group>"; };
+		7EA5D42B221ED39800A73BE5 /* Troll.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Troll.hpp; sourceTree = "<group>"; };
+		7EA5D42D221ED41F00A73BE5 /* Headers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Headers.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,8 +141,15 @@
 		30BBF6D4221DC277001E97A7 /* Characters */ = {
 			isa = PBXGroup;
 			children = (
-				30BBF6D8221DC292001E97A7 /* ICharacters.cpp */,
-				30BBF6D9221DC292001E97A7 /* ICharacters.hpp */,
+				7EA5D421221EC12C00A73BE5 /* ICharacter.cpp */,
+				7EA5D422221EC12C00A73BE5 /* ICharacter.hpp */,
+				7EA5D424221ECF9800A73BE5 /* Knight.cpp */,
+				7EA5D425221ECF9800A73BE5 /* Knight.hpp */,
+				7EA5D427221ED34900A73BE5 /* Goblin.cpp */,
+				7EA5D428221ED34900A73BE5 /* Goblin.hpp */,
+				7EA5D42A221ED39800A73BE5 /* Troll.cpp */,
+				7EA5D42B221ED39800A73BE5 /* Troll.hpp */,
+				7EA5D42D221ED41F00A73BE5 /* Headers.hpp */,
 			);
 			path = Characters;
 			sourceTree = "<group>";
@@ -131,11 +157,13 @@
 		30BBF6DB221DC29F001E97A7 /* Equipments */ = {
 			isa = PBXGroup;
 			children = (
-				30BBF6E7221DD9C4001E97A7 /* WeaponBehaviours */,
-				30BBF6DD221DC2AD001E97A7 /* Armors */,
-				30BBF6DC221DC2A6001E97A7 /* Weapons */,
 				30BBF6E4221DC2D6001E97A7 /* IEquipment.cpp */,
 				30BBF6E5221DC2D6001E97A7 /* IEquipment.hpp */,
+				7EA5D41F221EBEF400A73BE5 /* IEquipmentFactory.cpp */,
+				7EA5D417221EBA0600A73BE5 /* IEquipmentFactory.hpp */,
+				30BBF6DD221DC2AD001E97A7 /* Armors */,
+				30BBF6E7221DD9C4001E97A7 /* WeaponBehaviours */,
+				30BBF6DC221DC2A6001E97A7 /* Weapons */,
 			);
 			path = Equipments;
 			sourceTree = "<group>";
@@ -151,6 +179,8 @@
 				30BBF6F8221DECBA001E97A7 /* Dagger.hpp */,
 				30BBF6FA221DED12001E97A7 /* Club.cpp */,
 				30BBF6FB221DED12001E97A7 /* Club.hpp */,
+				7EA5D419221EBA6C00A73BE5 /* WeaponFactory.cpp */,
+				7EA5D41A221EBA6C00A73BE5 /* WeaponFactory.hpp */,
 			);
 			path = Weapons;
 			sourceTree = "<group>";
@@ -170,6 +200,8 @@
 				30BBF707221DEDD8001E97A7 /* Gauntlet.hpp */,
 				30BBF709221DEDE6001E97A7 /* Greave.cpp */,
 				30BBF70A221DEDE6001E97A7 /* Greave.hpp */,
+				7EA5D41C221EBB6A00A73BE5 /* ArmorFactory.cpp */,
+				7EA5D41D221EBB6A00A73BE5 /* ArmorFactory.hpp */,
 			);
 			path = Armors;
 			sourceTree = "<group>";
@@ -207,10 +239,10 @@
 		7E8E6A03221D7CA0001EAC35 /* FactoryPattern */ = {
 			isa = PBXGroup;
 			children = (
-				30BBF6DB221DC29F001E97A7 /* Equipments */,
-				30BBF6D4221DC277001E97A7 /* Characters */,
 				7E8E6A04221D7CA0001EAC35 /* main.cpp */,
 				7E8E6A0D221D7D6E001EAC35 /* Alchemy */,
+				30BBF6D4221DC277001E97A7 /* Characters */,
+				30BBF6DB221DC29F001E97A7 /* Equipments */,
 				7E8E6A0E221D7D74001EAC35 /* Observables */,
 				7E8E6A0F221D7D7B001EAC35 /* Observers */,
 			);
@@ -318,8 +350,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EA5D41B221EBA6C00A73BE5 /* WeaponFactory.cpp in Sources */,
 				30BBF6E6221DC2D6001E97A7 /* IEquipment.cpp in Sources */,
 				7E8E6A27221D8565001EAC35 /* Water.cpp in Sources */,
+				7EA5D42C221ED39800A73BE5 /* Troll.cpp in Sources */,
 				7E8E6A32221DA078001EAC35 /* HealthBar.cpp in Sources */,
 				7E8E6A24221D8506001EAC35 /* GreenHerb.cpp in Sources */,
 				7E8E6A1B221D835C001EAC35 /* ManaPotion.cpp in Sources */,
@@ -330,14 +364,17 @@
 				30BBF6F9221DECBA001E97A7 /* Dagger.cpp in Sources */,
 				7E8E6A1E221D83AE001EAC35 /* Vial.cpp in Sources */,
 				7E8E6A2C221D89B6001EAC35 /* IObservable.cpp in Sources */,
+				7EA5D426221ECF9800A73BE5 /* Knight.cpp in Sources */,
+				7EA5D420221EBEF400A73BE5 /* IEquipmentFactory.cpp in Sources */,
 				7E8E6A12221D7DA8001EAC35 /* IPotion.cpp in Sources */,
 				30BBF6E0221DC2BC001E97A7 /* IWeapon.cpp in Sources */,
 				30BBF70B221DEDE6001E97A7 /* Greave.cpp in Sources */,
 				30BBF702221DEDB5001E97A7 /* Cuirass.cpp in Sources */,
 				30BBF6FC221DED12001E97A7 /* Club.cpp in Sources */,
-				30BBF6DA221DC292001E97A7 /* ICharacters.cpp in Sources */,
 				30BBF708221DEDD8001E97A7 /* Gauntlet.cpp in Sources */,
 				30BBF6F3221DDEF8001E97A7 /* DaggerBehaviour.cpp in Sources */,
+				7EA5D429221ED34900A73BE5 /* Goblin.cpp in Sources */,
+				7EA5D41E221EBB6A00A73BE5 /* ArmorFactory.cpp in Sources */,
 				7E8E6A05221D7CA0001EAC35 /* main.cpp in Sources */,
 				30BBF6F0221DDDC7001E97A7 /* SwordBehaviour.cpp in Sources */,
 				30BBF705221DEDCC001E97A7 /* Pauldron.cpp in Sources */,
@@ -345,6 +382,7 @@
 				7E8E6A2F221D9B78001EAC35 /* Health.cpp in Sources */,
 				30BBF6ED221DDB04001E97A7 /* Sword.cpp in Sources */,
 				30BBF6E3221DC2C4001E97A7 /* IArmor.cpp in Sources */,
+				7EA5D423221EC12C00A73BE5 /* ICharacter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

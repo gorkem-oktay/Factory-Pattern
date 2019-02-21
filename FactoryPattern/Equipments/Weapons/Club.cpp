@@ -10,7 +10,7 @@
 #include "../WeaponBehaviours/ClubBehaviour.hpp"
 
 Club::Club(){
-    setType("Club");
+    setName("Club");
     setDamage(8);
     setBehaviour(new ClubBehaviour());
     setSlot(EquipmentSlot::TWO_HAND);

@@ -11,4 +11,10 @@
 
 #include "IArmor.hpp"
 
+class Helmet : public IArmor {
+    
+public:
+    Helmet();
+};
+
 #endif /* Helmet_hpp */

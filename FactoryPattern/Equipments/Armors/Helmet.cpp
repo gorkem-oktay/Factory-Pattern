@@ -7,3 +7,9 @@
 //
 
 #include "Helmet.hpp"
+
+Helmet::Helmet(){
+    setName("Helmet");
+    setSlot(HEAD);
+    setProtection(1);
+}

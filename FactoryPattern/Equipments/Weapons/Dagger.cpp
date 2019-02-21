@@ -10,7 +10,7 @@
 #include "../WeaponBehaviours/DaggerBehaviour.hpp"
 
 Dagger::Dagger(){
-    setType("Dagger");
+    setName("Dagger");
     setDamage(4);
     setBehaviour(new DaggerBehaviour());
     setSlot(EquipmentSlot::RIGHT_HAND);

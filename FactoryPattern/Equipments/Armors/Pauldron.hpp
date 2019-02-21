@@ -9,6 +9,12 @@
 #ifndef Pauldron_hpp
 #define Pauldron_hpp
 
-#include <stdio.h>
+#include "IArmor.hpp"
+
+class Pauldron : public IArmor {
+  
+public:
+    Pauldron();
+};
 
 #endif /* Pauldron_hpp */

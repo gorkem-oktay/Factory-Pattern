@@ -7,3 +7,9 @@
 //
 
 #include "Gauntlet.hpp"
+
+Gauntlet::Gauntlet(){
+    setName("Gauntlet");
+    setSlot(HAND);
+    setProtection(1);
+}

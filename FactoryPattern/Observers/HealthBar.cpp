@@ -15,9 +15,9 @@ HealthBar::HealthBar(string name){
 }
 
 void HealthBar::updated(IObservable *observable, void* value){
-    if (typeid(observable) == typeid(Health)) {
+    if (static_cast<Health*>(observable) != nullptr) {
         Health* health = (Health*)observable;
         int mValue = (int)(size_t)value;
-        cout << name << " received " << to_string(mValue) << " damage and " << to_string(health->getValue());
+        cout << name << " received " << to_string(mValue) << " damage and " << to_string(health->getValue()) << "\n";
     }
 }

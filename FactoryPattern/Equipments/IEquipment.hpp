@@ -28,14 +28,14 @@ enum EquipmentSlot {
 class IEquipment {
     
 public:
-    void setType(string type);
-    string getType();
+    void setName(string name);
+    string getName();
     
     void setSlot(EquipmentSlot slot);
     EquipmentSlot getSlot();
     
 private:
-    string type;
+    string name;
     EquipmentSlot slot;
 };
 

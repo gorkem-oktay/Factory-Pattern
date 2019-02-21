@@ -9,6 +9,12 @@
 #ifndef Gauntlet_hpp
 #define Gauntlet_hpp
 
-#include <stdio.h>
+#include "IArmor.hpp"
+
+class Gauntlet : public IArmor {
+    
+public:
+    Gauntlet();
+};
 
 #endif /* Gauntlet_hpp */
