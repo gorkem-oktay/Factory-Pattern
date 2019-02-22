@@ -8,7 +8,7 @@
 
 #include "Cuirass.hpp"
 
-Curiass::Curiass(){
+Cuirass::Cuirass(){
     setName("Curiass");
     setSlot(CHEST);
     setProtection(1);

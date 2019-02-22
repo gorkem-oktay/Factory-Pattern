@@ -63,7 +63,7 @@ void ICharacter::equip(EquipmentSlot slot, string name){
     if (result.second) {
         cout << equipment->getName() << " is equipped\n";
     } else {
-        cout << "\nAn item is already equipped in that slot\n";
+        cout << "An item is already equipped in that slot\n";
     }
 }
 

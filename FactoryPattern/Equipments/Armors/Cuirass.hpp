@@ -11,10 +11,10 @@
 
 #include "IArmor.hpp"
 
-class Curiass : public IArmor {
+class Cuirass : public IArmor {
     
 public:
-    Curiass();
+    Cuirass();
 };
 
 #endif /* Cuirass_hpp */

@@ -18,7 +18,7 @@ IEquipment* ArmorFactory::getEquipment(string name){
     if (name == "Helmet") {
         return new Helmet();
     } else if (name == "Cuirass") {
-        return new Curiass();
+        return new Cuirass();
     } else if (name == "Pauldron") {
         return new Pauldron();
     } else if (name == "Gauntlet") {

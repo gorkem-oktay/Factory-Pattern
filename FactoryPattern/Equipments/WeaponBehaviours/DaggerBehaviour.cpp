@@ -9,14 +9,12 @@
 #include "DaggerBehaviour.hpp"
 #include <iostream>
 
-using namespace std;
-
 int DaggerBehaviour::calculateDamage(int minimum){
     int isDoubleStrike = rand() % 100 + 1;
     
     if (isDoubleStrike > 30)
     {
-        cout << "Double Strike!!!";
+        std::cout << "Double Strike!!!";
         return minimum * 2;
     }
     

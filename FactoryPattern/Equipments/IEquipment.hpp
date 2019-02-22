@@ -35,7 +35,7 @@ public:
     virtual EquipmentSlot getSlot();
     
 private:
-    string name = "Unknow Item";
+    string name = "Unknown Item";
     EquipmentSlot slot;
 };
 
