@@ -16,10 +16,10 @@ class IWeapon : public IEquipment {
   
 public:
     void setDamage(int damage);
-    int getDamage();
+    virtual int getDamage();
     
     void setBehaviour(IWeaponBehaviour* behaviour);
-    IWeaponBehaviour* getBehaviour();
+    virtual IWeaponBehaviour* getBehaviour();
     
     int calculateDamage();
     

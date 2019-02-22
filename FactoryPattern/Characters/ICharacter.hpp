@@ -9,7 +9,7 @@
 #ifndef ICharacter_hpp
 #define ICharacter_hpp
 
-#include "../Equipments/IEquipment.hpp"
+#include "../Equipments/Weapons/IWeapon.hpp"
 #include "../Observables/Health.hpp"
 #include <map>
 
@@ -28,6 +28,9 @@ public:
     
     void equip(EquipmentSlot slot, string name);
     void unequip(EquipmentSlot slot);
+    
+    IWeapon* getWeapon();
+    void updateEquipment(IEquipment* equipment);
     
     void hit(ICharacter* to);
     

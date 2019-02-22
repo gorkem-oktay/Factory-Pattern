@@ -72,7 +72,7 @@ void ICharacter::unequip(EquipmentSlot slot){
     cout << "Item unequipped\n";
 }
 
-void ICharacter::hit(ICharacter* to){
+IWeapon* ICharacter::getWeapon(){
     auto iterator = find_if(equipments.begin(), equipments.end(), [](pair<EquipmentSlot, IEquipment*> item) {
         return item.second->getSlot() == TWO_HAND || item.second->getSlot() == RIGHT_HAND;
     });
@@ -81,6 +81,16 @@ void ICharacter::hit(ICharacter* to){
     if (iterator != equipments.end()) {
         weapon = (IWeapon*) iterator->second;
     }
+    
+    return weapon;
+}
+
+void ICharacter::updateEquipment(IEquipment* equipment){
+    equipments[equipment->getSlot()] = equipment;
+}
+
+void ICharacter::hit(ICharacter* to){
+    IWeapon* weapon = getWeapon();
     
     if(weapon != nullptr) {
         int damage = weapon->calculateDamage();

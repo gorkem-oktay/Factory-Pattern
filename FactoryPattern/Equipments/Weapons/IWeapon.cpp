@@ -25,5 +25,5 @@ IWeaponBehaviour* IWeapon::getBehaviour(){
 }
 
 int IWeapon::calculateDamage(){
-    return behaviour->calculateDamage(damage);
+    return getBehaviour()->calculateDamage(getDamage());
 }

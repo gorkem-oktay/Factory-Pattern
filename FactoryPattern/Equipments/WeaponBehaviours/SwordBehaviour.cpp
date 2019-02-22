@@ -17,7 +17,7 @@ int SwordBehaviour::calculateDamage(int minimum){
     
     if (isCriticalStrike > 70)
     {
-        cout << "Critical Strike!!!";
+        cout << "Critical Strike!!!\n";
         return minimum * 3;
     }
     

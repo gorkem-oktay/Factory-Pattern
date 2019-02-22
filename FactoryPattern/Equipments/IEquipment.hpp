@@ -29,13 +29,13 @@ class IEquipment {
     
 public:
     void setName(string name);
-    string getName();
+    virtual string getName();
     
     void setSlot(EquipmentSlot slot);
-    EquipmentSlot getSlot();
+    virtual EquipmentSlot getSlot();
     
 private:
-    string name;
+    string name = "Unknow Item";
     EquipmentSlot slot;
 };
 

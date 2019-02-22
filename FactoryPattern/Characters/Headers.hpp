@@ -13,5 +13,6 @@
 #include "Knight.hpp"
 #include "Goblin.hpp"
 #include "Troll.hpp"
+#include "Dummy.hpp"
 
 #endif /* Headers_hpp */

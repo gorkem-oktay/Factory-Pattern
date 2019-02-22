@@ -7,8 +7,8 @@
 //
 
 #include <iostream>
-#include "Alchemy/Headers.hpp"
 #include "Characters/Headers.hpp"
+#include "Equipments/Runes/DamageRune.hpp"
 
 using namespace std;
 
@@ -44,28 +44,22 @@ int main(int argc, const char * argv[]) {
     
     cout << "\n";
     cout << "After defeating " << evilGoblin->getType() << "\n";
-    cout << ourKnight->getName() << " stops at a store to buy some Health Potion\n";
-    cout << "And shopkeeper tells its cost as\n";
+    cout << ourKnight->getName() << " stops at the blacksmith to upgrade his sword\n";
+    cout << "Then buys three damage rune and goes to training ground to test them\n";
     cout << "\n";
     
-    IPotion* potionHealth = new HealthPotion();
-    potionHealth = new Vial(potionHealth);
-    potionHealth = new GreenHerb(potionHealth);
-    potionHealth = new Water(potionHealth);
+    ICharacter* dummy = new Dummy();
     
-    cout << potionHealth->getDescription() << "\n";
-    printf("Cost: %i\n", potionHealth->cost());
-    
-    IPotion* potionMana = new ManaPotion();
-    potionMana = new Vial(potionMana);
-    potionMana = new BlueHerb(potionMana);
-    potionMana = new Water(potionMana);
-    
-    cout << potionMana->getDescription() << "\n";
-    printf("Cost: %i\n", potionMana->cost());
+    // Decorator usage
+    ourKnight->updateEquipment(new DamageRune(ourKnight->getWeapon()));
+    ourKnight->hit(dummy);
+    ourKnight->updateEquipment(new DamageRune(ourKnight->getWeapon()));
+    ourKnight->hit(dummy);
+    ourKnight->updateEquipment(new DamageRune(ourKnight->getWeapon()));
+    ourKnight->hit(dummy);
     
     cout << "\n";
-    cout << "Then he goes to the blacksmith to get his helmet back from repair\n";
+    cout << "After testing his new sword returns to the blacksmith to get his helmet back from repair\n";
     cout << "It was finished and he immidiately tries it to see how it was done\n";
     
     ourKnight->equip(HEAD, "Helmet");
