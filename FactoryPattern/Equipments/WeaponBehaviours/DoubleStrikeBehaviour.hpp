@@ -11,7 +11,7 @@
 
 #include "IWeaponBehaviour.hpp"
 
-class DaggerBehaviour : public IWeaponBehaviour {
+class DoubleStrikeBehaviour : public IWeaponBehaviour {
     
 public:
     int calculateDamage(int minimum) override;

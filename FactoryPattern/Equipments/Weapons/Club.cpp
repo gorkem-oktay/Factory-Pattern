@@ -7,11 +7,11 @@
 //
 
 #include "Club.hpp"
-#include "../WeaponBehaviours/ClubBehaviour.hpp"
+#include "../WeaponBehaviours/NormalHitBehaviour.hpp"
 
 Club::Club(){
     setName("Club");
     setDamage(8);
-    setBehaviour(new ClubBehaviour());
+    setBehaviour(new NormalHitBehaviour());
     setSlot(EquipmentSlot::TWO_HAND);
 }

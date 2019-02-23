@@ -6,10 +6,10 @@
 //  Copyright © 2019 Görkem Oktay. All rights reserved.
 //
 
-#include "DaggerBehaviour.hpp"
+#include "DoubleStrikeBehaviour.hpp"
 #include <iostream>
 
-int DaggerBehaviour::calculateDamage(int minimum){
+int DoubleStrikeBehaviour::calculateDamage(int minimum){
     int isDoubleStrike = rand() % 100 + 1;
     
     if (isDoubleStrike > 30)

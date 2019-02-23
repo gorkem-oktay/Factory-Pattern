@@ -6,8 +6,8 @@
 //  Copyright © 2019 Görkem Oktay. All rights reserved.
 //
 
-#include "ClubBehaviour.hpp"
+#include "NormalHitBehaviour.hpp"
 
-int ClubBehaviour::calculateDamage(int minimum){
+int NormalHitBehaviour::calculateDamage(int minimum){
     return minimum;
 }

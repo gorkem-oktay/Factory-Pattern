@@ -7,11 +7,11 @@
 //
 
 #include "Dagger.hpp"
-#include "../WeaponBehaviours/DaggerBehaviour.hpp"
+#include "../WeaponBehaviours/DoubleStrikeBehaviour.hpp"
 
 Dagger::Dagger(){
     setName("Dagger");
     setDamage(4);
-    setBehaviour(new DaggerBehaviour());
+    setBehaviour(new DoubleStrikeBehaviour());
     setSlot(EquipmentSlot::RIGHT_HAND);
 }

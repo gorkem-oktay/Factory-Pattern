@@ -7,11 +7,11 @@
 //
 
 #include "Sword.hpp"
-#include "../WeaponBehaviours/SwordBehaviour.hpp"
+#include "../WeaponBehaviours/CriticalStrikeBehaviour.hpp"
 
 Sword::Sword(){
     setName("Sword");
     setDamage(10);
-    setBehaviour(new SwordBehaviour());
+    setBehaviour(new CriticalStrikeBehaviour());
     setSlot(EquipmentSlot::RIGHT_HAND);
 }

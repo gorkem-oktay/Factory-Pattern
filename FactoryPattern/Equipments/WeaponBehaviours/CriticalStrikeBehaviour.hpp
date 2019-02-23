@@ -1,20 +1,20 @@
 //
-//  ClubBehaviour.hpp
+//  SwordBehaviour.hpp
 //  FactoryPattern
 //
 //  Created by Görkem Oktay on 20.02.2019.
 //  Copyright © 2019 Görkem Oktay. All rights reserved.
 //
 
-#ifndef ClubBehaviour_hpp
-#define ClubBehaviour_hpp
+#ifndef SwordBehaviour_hpp
+#define SwordBehaviour_hpp
 
 #include "IWeaponBehaviour.hpp"
 
-class ClubBehaviour : public IWeaponBehaviour {
+class CriticalStrikeBehaviour : public IWeaponBehaviour {
     
 public:
     int calculateDamage(int minimum) override;
 };
 
-#endif /* ClubBehaviour_hpp */
+#endif /* SwordBehaviour_hpp */

@@ -6,10 +6,10 @@
 //  Copyright © 2019 Görkem Oktay. All rights reserved.
 //
 
-#include "SwordBehaviour.hpp"
+#include "CriticalStrikeBehaviour.hpp"
 #include <iostream>
 
-int SwordBehaviour::calculateDamage(int minimum){
+int CriticalStrikeBehaviour::calculateDamage(int minimum){
     
     int isCriticalStrike = rand() % 100 + 1;
     

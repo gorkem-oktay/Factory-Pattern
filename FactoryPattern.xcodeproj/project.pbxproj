@@ -11,9 +11,9 @@
 		30BBF6E3221DC2C4001E97A7 /* IArmor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6E1221DC2C4001E97A7 /* IArmor.cpp */; };
 		30BBF6E6221DC2D6001E97A7 /* IEquipment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6E4221DC2D6001E97A7 /* IEquipment.cpp */; };
 		30BBF6ED221DDB04001E97A7 /* Sword.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6EB221DDB04001E97A7 /* Sword.cpp */; };
-		30BBF6F0221DDDC7001E97A7 /* SwordBehaviour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6EE221DDDC7001E97A7 /* SwordBehaviour.cpp */; };
-		30BBF6F3221DDEF8001E97A7 /* DaggerBehaviour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6F1221DDEF8001E97A7 /* DaggerBehaviour.cpp */; };
-		30BBF6F6221DDF5C001E97A7 /* ClubBehaviour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6F4221DDF5C001E97A7 /* ClubBehaviour.cpp */; };
+		30BBF6F0221DDDC7001E97A7 /* CriticalStrikeBehaviour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6EE221DDDC7001E97A7 /* CriticalStrikeBehaviour.cpp */; };
+		30BBF6F3221DDEF8001E97A7 /* DoubleStrikeBehaviour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6F1221DDEF8001E97A7 /* DoubleStrikeBehaviour.cpp */; };
+		30BBF6F6221DDF5C001E97A7 /* NormalHitBehaviour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6F4221DDF5C001E97A7 /* NormalHitBehaviour.cpp */; };
 		30BBF6F9221DECBA001E97A7 /* Dagger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6F7221DECBA001E97A7 /* Dagger.cpp */; };
 		30BBF6FC221DED12001E97A7 /* Club.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6FA221DED12001E97A7 /* Club.cpp */; };
 		30BBF6FF221DEDA2001E97A7 /* Helmet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30BBF6FD221DEDA2001E97A7 /* Helmet.cpp */; };
@@ -59,12 +59,12 @@
 		30BBF6E9221DD9D4001E97A7 /* IWeaponBehaviour.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IWeaponBehaviour.hpp; sourceTree = "<group>"; };
 		30BBF6EB221DDB04001E97A7 /* Sword.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sword.cpp; sourceTree = "<group>"; };
 		30BBF6EC221DDB04001E97A7 /* Sword.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sword.hpp; sourceTree = "<group>"; };
-		30BBF6EE221DDDC7001E97A7 /* SwordBehaviour.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SwordBehaviour.cpp; sourceTree = "<group>"; };
-		30BBF6EF221DDDC7001E97A7 /* SwordBehaviour.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SwordBehaviour.hpp; sourceTree = "<group>"; };
-		30BBF6F1221DDEF8001E97A7 /* DaggerBehaviour.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DaggerBehaviour.cpp; sourceTree = "<group>"; };
-		30BBF6F2221DDEF8001E97A7 /* DaggerBehaviour.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DaggerBehaviour.hpp; sourceTree = "<group>"; };
-		30BBF6F4221DDF5C001E97A7 /* ClubBehaviour.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClubBehaviour.cpp; sourceTree = "<group>"; };
-		30BBF6F5221DDF5C001E97A7 /* ClubBehaviour.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ClubBehaviour.hpp; sourceTree = "<group>"; };
+		30BBF6EE221DDDC7001E97A7 /* CriticalStrikeBehaviour.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CriticalStrikeBehaviour.cpp; sourceTree = "<group>"; };
+		30BBF6EF221DDDC7001E97A7 /* CriticalStrikeBehaviour.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CriticalStrikeBehaviour.hpp; sourceTree = "<group>"; };
+		30BBF6F1221DDEF8001E97A7 /* DoubleStrikeBehaviour.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoubleStrikeBehaviour.cpp; sourceTree = "<group>"; };
+		30BBF6F2221DDEF8001E97A7 /* DoubleStrikeBehaviour.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleStrikeBehaviour.hpp; sourceTree = "<group>"; };
+		30BBF6F4221DDF5C001E97A7 /* NormalHitBehaviour.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NormalHitBehaviour.cpp; sourceTree = "<group>"; };
+		30BBF6F5221DDF5C001E97A7 /* NormalHitBehaviour.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NormalHitBehaviour.hpp; sourceTree = "<group>"; };
 		30BBF6F7221DECBA001E97A7 /* Dagger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dagger.cpp; sourceTree = "<group>"; };
 		30BBF6F8221DECBA001E97A7 /* Dagger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Dagger.hpp; sourceTree = "<group>"; };
 		30BBF6FA221DED12001E97A7 /* Club.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Club.cpp; sourceTree = "<group>"; };
@@ -197,12 +197,12 @@
 			isa = PBXGroup;
 			children = (
 				30BBF6E9221DD9D4001E97A7 /* IWeaponBehaviour.hpp */,
-				30BBF6EE221DDDC7001E97A7 /* SwordBehaviour.cpp */,
-				30BBF6EF221DDDC7001E97A7 /* SwordBehaviour.hpp */,
-				30BBF6F1221DDEF8001E97A7 /* DaggerBehaviour.cpp */,
-				30BBF6F2221DDEF8001E97A7 /* DaggerBehaviour.hpp */,
-				30BBF6F4221DDF5C001E97A7 /* ClubBehaviour.cpp */,
-				30BBF6F5221DDF5C001E97A7 /* ClubBehaviour.hpp */,
+				30BBF6EE221DDDC7001E97A7 /* CriticalStrikeBehaviour.cpp */,
+				30BBF6EF221DDDC7001E97A7 /* CriticalStrikeBehaviour.hpp */,
+				30BBF6F1221DDEF8001E97A7 /* DoubleStrikeBehaviour.cpp */,
+				30BBF6F2221DDEF8001E97A7 /* DoubleStrikeBehaviour.hpp */,
+				30BBF6F4221DDF5C001E97A7 /* NormalHitBehaviour.cpp */,
+				30BBF6F5221DDF5C001E97A7 /* NormalHitBehaviour.hpp */,
 			);
 			path = WeaponBehaviours;
 			sourceTree = "<group>";
@@ -327,7 +327,7 @@
 				30BBF6E6221DC2D6001E97A7 /* IEquipment.cpp in Sources */,
 				7EA5D42C221ED39800A73BE5 /* Troll.cpp in Sources */,
 				7E8E6A32221DA078001EAC35 /* HealthBar.cpp in Sources */,
-				30BBF6F6221DDF5C001E97A7 /* ClubBehaviour.cpp in Sources */,
+				30BBF6F6221DDF5C001E97A7 /* NormalHitBehaviour.cpp in Sources */,
 				30BBF6FF221DEDA2001E97A7 /* Helmet.cpp in Sources */,
 				30BBF6F9221DECBA001E97A7 /* Dagger.cpp in Sources */,
 				7E8E6A2C221D89B6001EAC35 /* IObservable.cpp in Sources */,
@@ -340,12 +340,12 @@
 				30BBF702221DEDB5001E97A7 /* Cuirass.cpp in Sources */,
 				30BBF6FC221DED12001E97A7 /* Club.cpp in Sources */,
 				30BBF708221DEDD8001E97A7 /* Gauntlet.cpp in Sources */,
-				30BBF6F3221DDEF8001E97A7 /* DaggerBehaviour.cpp in Sources */,
+				30BBF6F3221DDEF8001E97A7 /* DoubleStrikeBehaviour.cpp in Sources */,
 				7EA5D429221ED34900A73BE5 /* Goblin.cpp in Sources */,
 				7EA5D41E221EBB6A00A73BE5 /* ArmorFactory.cpp in Sources */,
 				7E28A7E4221FE445003D62DF /* WeaponRuneDecorator.cpp in Sources */,
 				7E8E6A05221D7CA0001EAC35 /* main.cpp in Sources */,
-				30BBF6F0221DDDC7001E97A7 /* SwordBehaviour.cpp in Sources */,
+				30BBF6F0221DDDC7001E97A7 /* CriticalStrikeBehaviour.cpp in Sources */,
 				30BBF705221DEDCC001E97A7 /* Pauldron.cpp in Sources */,
 				7E8E6A2F221D9B78001EAC35 /* Health.cpp in Sources */,
 				30BBF6ED221DDB04001E97A7 /* Sword.cpp in Sources */,
