@@ -4,9 +4,9 @@
 In these repositories, some design patterns are implemented to a mini game system for self education. They may not be suited to use in an actual game (directly anyway). However, it is good to have some examples underhand to take reference. And even if anyone wants to use them, you are welcome.
 
 ### Definition
-Factory method, defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
+**_Factory method_**, defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
 
-Abstract Factory, provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+**_Abstract Factory_**, provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 
 ### Description
 Our weapon is upgraded, but we don't have any protection. So we need some armors to withstand damages. We just need to make some armor classes like we did before with weapons. However, variety of items is increasing and how will we manage and equip these items? After type check, we can just create the armor with new operator and assign it to the character, but doesn't it lead to coupling problems? Also it won't be used in one place and if we want to add new armor type, we will have to change every place where it is implemented.
