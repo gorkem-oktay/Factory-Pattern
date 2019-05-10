@@ -14,3 +14,5 @@ Our weapon is upgraded, but we don't have any protection. So we need some armors
 So, we should just extract that type checks and armor creation to a method. That method will just be responsible for creating our armors corresponding to given type, nothing else. It could be in our base armor class or in an another class like ArmorFactory. With this, our character won't know or care which armor it is, he just equips it. And our classes become loosely coupled. That is the Factory Method.
 
 However, we don't have just armors, we also have weapons. We should make a factory for them too. Now we have two factories, creating weapons and armors for us. Both items are equipable have in common. So can't we improve it even more? We first let someone else to create our armors and weapons for us and now let another one to create corresponding factory for us. This way, we even don't know the item we are equipping is armor or weapon and even which factory it is coming from. And that is the Abstract Factory.
+
+//pull request test
